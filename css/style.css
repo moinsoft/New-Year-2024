@@ -43,6 +43,18 @@ img{
     font-weight: 600;
 }
 
+.btn{
+    color: #ffffff;
+    padding: 1rem 3rem;
+    border-radius: 8px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.red__flag{
+    color: #ff0000;
+}
+
 /*==========================
 Header Section
 ============================*/
@@ -165,10 +177,40 @@ Welcome Section
 }
 
 .welcome__link{
-    color: #ffffff;
     background-color: #d0a64b;
-    padding: 1rem 3rem;
-    border-radius: 8px;
-    font-weight: bold;
-    display: inline-block;
+    text-transform: uppercase;
+}
+
+/*==========================
+Event Section
+============================*/
+
+.event{
+    padding: 5rem 0;
+}
+
+.event__content{
+    position:relative;
+    height: 482px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.event__content::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, rgba(255, 0, 0,10%), rgba(255, 0, 0, 0%));
+    border-radius: 14px;
+}
+
+.event__link{
+    background-color: #ff0000;
+    margin-top: 3rem;
+    text-transform: uppercase;
 }
