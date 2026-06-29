@@ -118,3 +118,57 @@ Categories Section
     line-height: 2rem;
     margin-bottom: 5rem;
 }
+
+/*==========================
+Welcome Section
+============================*/
+.welcome{
+    padding: 5rem 0;
+}
+
+.welcome__banner{
+    position: relative;
+}
+
+.welcome__banner::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1));
+    border-radius: 14px;
+}
+
+.welcome__banner::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url("../assets/banner/twentyFour.png");
+    background-repeat: no-repeat;
+    top: 10%;
+    left: 65%;
+}
+
+.welcome__content{
+    position: absolute;
+    top: 25%;
+    width: 50%;
+    color: #ffffff;
+    margin-left: 5rem;
+}
+
+.welcome__content .title, .welcome__content .welcome__description{
+    margin-bottom: 2rem;
+}
+
+.welcome__link{
+    color: #ffffff;
+    background-color: #d0a64b;
+    padding: 1rem 3rem;
+    border-radius: 8px;
+    font-weight: bold;
+    display: inline-block;
+}
