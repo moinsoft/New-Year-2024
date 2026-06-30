@@ -300,3 +300,54 @@ Holidays Section
     height: 150px;
     border-radius: 14px 0 14px 14px;
 }
+
+/*==========================
+Portfolio Section
+============================*/
+
+.portfolio{
+    padding: 5rem 0;
+}
+
+.section__title--portfolio{
+    margin: 0 0 5rem 0;
+}
+
+.section__title .subTitle{
+    text-transform: uppercase;
+}
+
+.section__title .title{
+    margin: 2rem 0;
+}
+
+.portfolio__content{
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+    gap: 30px;
+}
+
+.portfolio__single{
+    border: 1px solid #dddddd;
+    padding: 3px;
+    border-radius: 15px;
+    transition: all 0.3s linear;
+}
+
+.portfolio__single:hover{
+    border: 1px solid #ff0000;
+}
+
+.portfolio__img{
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.portfolio__img img{
+    width: 100%;
+    transition: all 0.3s linear;
+}
+
+.portfolio__img img:hover{
+  transform: scale(1.4);
+}
