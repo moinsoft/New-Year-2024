@@ -360,6 +360,12 @@ Subscribe Section
     padding: 5rem 0;
 }
 
+.subscribe__bg{
+    padding: 5rem 0;
+    background: rgba(255, 0, 0,10%);
+    border-radius: 14px;
+}
+
 .subscribe__content{
     text-align: center;
     width: 60%;
