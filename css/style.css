@@ -163,7 +163,7 @@ Welcome Section
 .welcome__banner::after{
     content: "";
     position: absolute;
-    width: 100%;
+    width: 40%;
     height: 100%;
     background-image: url("../assets/banner/twentyFour.png");
     background-repeat: no-repeat;
@@ -279,7 +279,7 @@ Holidays Section
 .holidays__content::after{
     content: "";
     position: absolute;
-    width: 100%;
+    width: 45%;
     height: 100%;
     background-image: url("../assets/discount_offer/discount.png");
     background-repeat: no-repeat;
@@ -409,3 +409,68 @@ Subscribe Section
 .subscribe__btn:hover {
   background: #bb1322;
 }
+
+/*==========================
+footer Section
+============================*/
+
+.footer{
+    padding: 5rem 0;
+    background: #000000;
+}
+
+.footer__top{
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+
+.footer__address p{
+    margin-bottom: 1rem;
+}
+
+.footer__contact a{
+    color: #ffffff;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.footer__contact i{
+    margin-right: .5rem;
+}
+
+.footer__social{
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 2rem 0;
+}
+
+.footer__social-link:hover img{
+    animation: spin .5s linear infinite;
+}
+
+@keyframes spin{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.footer__bottom{
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+
+.footer__bottom a{
+    color: #ffffff;
+}
+
